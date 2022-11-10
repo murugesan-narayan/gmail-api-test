@@ -1,0 +1,11 @@
+spring:
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: dev_tools@gmail.com
+    password:
+    properties:
+      mail.transport.protocol: smtp
+      mail.smtp.auth: true
+      mail.smtp.starttls.enable: true
+      mail.debug: false
